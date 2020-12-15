@@ -1,0 +1,32 @@
+:root {
+  --base-font-family: 'Fira Sans', sans-serif, Helvetica;
+  --color-light-gray: rgb(245, 247, 250);
+  --color-black: rgb(0, 0, 0);
+  --color-white: white;
+  --color-red: #ED5454;
+  --color-calendar-background: #A8B2B9;
+  --color-border: #e1e1e1;
+  --color-shadow: #00000029;
+  --dark-grey-color: #3D3D3F;
+  --color-light-green: #a6f1a6;
+  --color-light-yellow: #f1ef79;
+}
+  
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: var(--base-font-family);
+}
+
+body {
+  min-height: 100vh;
+  background: linear-gradient(var(--mid-blue-color), var(--light-seawave-color)) center / cover no-repeat;
+  box-sizing: border-box;
+}
+
+  

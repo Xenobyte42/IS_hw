@@ -1,0 +1,21 @@
+#main-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-light-gray);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#main-header-title {
+  font-size: clamp(2rem, 3vw, 6rem);
+}
+
+#main-container {
+  grid-area: content;
+  padding: 48px;
+  font-weight: 100;
+  color: var(--color-calendar-background);
+  background-color: #FCFBFC;
+  min-height: 100vh;
+}

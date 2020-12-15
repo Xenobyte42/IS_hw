@@ -1,0 +1,14 @@
+/* Cards */
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  column-gap: calc(8% / 3);
+  row-gap: 48px;
+  width: 100%;
+  box-sizing: border-box;
+  padding-top: 4vh;
+  margin-bottom: 4vh;
+}
+
